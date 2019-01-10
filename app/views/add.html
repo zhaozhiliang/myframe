@@ -1,0 +1,9 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<form action="/index/save" method="POST" class="am-form">
+    <input type="text" name="title" class="" placeholder="请输入title">
+    <textarea name="content" class="" placeholder="请输入content"></textarea>
+    <button type="submit">提交</button>
+</form>
+{% endblock %}
